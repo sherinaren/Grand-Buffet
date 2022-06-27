@@ -9,17 +9,37 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Ristorante Con Fusion</title>
+   <link rel="stylesheet" href="css/styles.css">
+    <title>Grand Buffet</title>
 </head>
 
 <body>
 
+<nav class = "navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class = "container">
+        <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#Navbar">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+        <a class = "navbar-brand active mr-auto" href="./index.html">江Grand Buffet龍</a>
+        <div class = "collapse navbar-collapse" id = "Navbar">
+            <ul class = "navbar-nav mr-auto">
+                <li class = "nav-item">
+                    <a class = "nav-link" href="./index.html">Home</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href="./menu.html">Menu</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
     <header class = "jumbotron">
         <div class = "container">
-            <div class = "row">
-                <div class = "col-12 col-sm-6">
-                    <h1>Grand Buffet</h1>
-                    <p>Welcome! Thank you for visiting our website and hope you enjoy our authentic Asian cuisine. We bring to you Chinese and Japanese food so that you can get a taste of Asia through the comfort of your own city.</p>
+            <div class = "row row-header">
+                <div class = "col-12 col-sm-12">
+                    <h2>Welcome!</h2>
+                    <p>Thank you for checking out our restaurant and hope you enjoy our authentic Asian cuisine. We bring to you Chinese and Japanese food so that you can get a taste of Asia through the comfort of your own city.</p>
                 </div>
                 <div class = "col-12 col-sm">
                 </div>
@@ -28,74 +48,133 @@
     </header>
 
     <div class = "container">
-        <div class = "row">
-            <div class = "col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Our Lipsmacking Culinary Creations</h3>
+        <div class = "row row-content align-items-center">
+            <div class = "col-12 col-sm-4 order-sm-first col-md-3">
+                <h3>Hours of Business</h3>
             </div>
-            <div class = "col col-sm order-sm-first col-md">
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+            <div class = "col col-sm order-sm-last col-md">
+                <h5>We're open 365 days a year!</h5>
+                <ul class="list-unstyled">
+                    <li>Our everyday hours are 11:00am-10:00pm. If you'd like to make a reservation,
+                    please call us at (409) 722-6668!</li>
+                </ul>
+                <!-- add google maps later and make call a call link button??? -->
             </div>
         </div>
 
 
-        <div class = "row">
-            <div class = "col-12 col-sm-4 col-md-3">
-                <h3>This Month's Promotions</h3>
+        <div class = "row row-content align-items-center">
+            <div class = "col-12 col-sm-8 col-md-4">
+                <h3>Buffet and <br>To-go Prices</h3>
+                <p>*Checks are not accepted*</p>
             </div>
             <div class = "col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead bgcolor = "#c2b968">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>Lunch</th>
+                                <th>Dinner</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <th>Adults</th>
+                                <td>$13.99</td>
+                                <td>$18.99</td>
+                            </tr>
+                            <tr>
+                                <th>Kids 8-12</th>
+                                <td>$8.99</td>
+                                <td>$10.99</td>
+                            </tr>
+                            <tr>
+                                <th>Kids 5-8</th>
+                                <td>$6.99</td>
+                                <td>$8.99</td>
+                            </tr>
+                            <tr>
+                                <th>Kids under 5</th>
+                                <td>$3.99</td>
+                                <td>$5.99</td>
+                            </tr>
+                            <tr>
+                                <th>To-Go w/ Seafood and Hibachi</th>
+                                <td>$10.99/pound</td>
+                                <td>$10.99/pound</td>
+                            </tr>
+                            <tr>
+                                <th>To-Go</th>
+                                <td>$7.99/pound</td>
+                                <td>$10.99/pound</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>   
+                <!-- <h5>Lunch (11:00am-2:30pm)</h5>
+                <ul class="list-unstyled">
+                    <li>$10.99 per adult (10%
+                        discount for adults over 65 years old)</li>
+                    <li>$8.99 per child ages 6-12</li>
+                    <li>$6.99 per child ages 3-5</li>
+                    <li>$2.99 for fountain drinks</li>
+                </ul>
+                <h5>Dinner (2:30pm-10:00pm)</h5>
+                <ul class="list-unstyled">
+                    <li>$15.99 per adult (10%
+                        discount for adults over 65 years old)</li>
+                    <li>$10.99 per child ages 6-12</li>
+                    <li>$8.99 per child ages 3-5</li>
+                    <li>$2.99 for fountain drinks</li>
+                </ul>
+                <h5>To-go is by the pound!</h5>
+                <ul class="list-unstyled">
+                    <li>$10.99 per adult (10%
+                        discount for adults over 65 years old)</li>
+                    <li>$8.99 per child ages 6-12</li>
+                    <li>$6.99 per child ages 3-5</li>
+                </ul> -->
             </div>
         </div>
 
-        <div class = "row">
-            <div class = "col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Meet our Culinary Specialists</h3>
+        <div class = "row row-content align-items-center">
+            <div class = "col-12 col-sm-4 order-sm-first col-md-3">
+                <h3>Why Grand Buffet?</h3>
             </div>
-            <div class = "col col-sm order-sm-first col-md">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+            <div class = "col col-sm order-sm-last col-md">
+                <h2>Family-Owned Small Business </h2>
+                <h4>6 different islands of delicious food</h4>
+                <p>We serve fresh sushi made by our talented sushi chef, a hibachi grill, fresh crawfish, BBQ spare ribs, fried crabs, fruits, salads, soups, dessert, and more!</p>
             </div>
         </div>
     </div>
 
-    <footer>
+    <footer class = "footer">
         <div class = "container">
-            <div class = "row">             
-                <div class = "col-4 offset-1 col-sm-2">
+            <div class = "row justify-content-around text-center">             
+                <div class = "col-4">
                     <h5>Links</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <ul class="list-unstyled">
+                        
+                        <li><a class="text-white" href="./index.html">Home</a></li>
+                        <li><a class="text-white" href="#">About Us (Coming Soon)</a></li>
+                        <li><a class="text-white" href="#">Menu (Coming Soon)</a></li>
+                        <li><a class="text-white" href="#">Contact Us (Coming Soon)</a></li>
                     </ul>
                 </div>
-                <div class = "col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                <div class = "col-4">
+                    <div class="text-center"> 
+                    <h5>Our Location</h5>
+                    </div>
+                    <address class = "text-center">
+		              2250 FM 365<br>
+		              Nederland, Texas 77627<br>
+		              Tel: (409) 722-6668<br>
 		           </address>
                 </div>
-                <div class = "col-12 col-sm-4">
-                    <div>
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
-                    </div>
-                </div>
            </div>
-           <div class = "row">             
+           <div class = "row justify-content-center">             
                 <div class = "col-auto">
                     <p>© Copyright 2015 Grand Buffet</p>
                 </div>

@@ -1,3 +1,5 @@
+
+
 .row-header {
     margin: 0px auto;
     padding: 0px auto;
@@ -15,6 +17,11 @@
     margin: 0px;
     padding: 20px 0px 20px 0px;
     color: white;
+
+    font-style: oblique;
+    font-size: 17px;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 .jumbotron {
@@ -37,5 +44,58 @@ body {
 
 .navbar-dark {
     background-color: #c2b968;
+
+    font-style: oblique;
+    font-size: 17px;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
+/* CALCULATOR */
+.container-calc {
+    font-style: oblique;
+    font-size: 25px;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: #c2b968;
+    
+} 
+
+.counter-minus, .resetButton, .counter-plus {
+    background-color: #c2b968;
+    border-radius: 8px;
+    color: #620808;
+    padding: 7px;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    bottom: 5px;
+}
+.counter-minus:hover, .resetButton:hover, .counter-minus:hover {background-color: #c2b968}
+.counter-minus:active, .resetButton:active, .counter-minus:active {
+background-color: #c2b968;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.list-items {
+    padding-left: 10px;
+    line-height: 1.5em;
+    font-size: larger;
+    /* text-align: left; */
+    min-width: 1000px;
+    
+}
+
+.list-buttons {
+    padding-left: 0px;
+    line-height: 1.50em;
+    font-size: large;
+    text-align: right;
+    min-width: 100px;
+    
+}
+
+.total {
+    text-align:center;
+}

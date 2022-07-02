@@ -40,6 +40,28 @@ function updateCalculateDisplay() {
     calculateDisplay.innerText = "Your total, tax included, will be $" + calculateTotalCost(itemQuantity) + ".";
 };
 
+function updateResetDisplay2() {
+    calculateDisplay.innerText = "0";
+};
+// Reset Button Code
+
+let resetElems = document.querySelectorAll(".resetButton");
+function clickResetButton(itemQuantity) {
+    for (const [itemName, quantity] of Object.entries(itemQuantity)) {
+        itemQuantity[itemName]=0
+        updateDisplay(itemName)
+    }
+    updateResetDisplay2()
+    return itemQuantity
+};
+resetElems.forEach((button) =>
+    button.addEventListener('click', () => {
+        itemQuantity=clickResetButton(itemQuantity)
+    }))
+;
+ 
+
+
 // Plus and Minus Button Code
 let counterDisplayElems = document.querySelectorAll('.counter-display');
 let counterMinusElems = document.querySelectorAll('.counter-minus');
@@ -76,3 +98,4 @@ counterMinusElems.forEach((button)=>
 counterDisplayElems.forEach((button)=>
     button.addEventListener('click', () => updateDisplay(button.id))
 );
+

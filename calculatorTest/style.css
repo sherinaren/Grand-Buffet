@@ -12,7 +12,6 @@
 }
 
 .flex-child {
-    border: 2.5px solid #c2b968;
     border-radius: 10px;
     min-width: 100px;  
     height: 485px;
@@ -59,6 +58,7 @@ transform: translateY(4px);
     line-height: 1.5em;
     font-size: larger;
     text-align: justify;
+    min-width: 500px;
     
 }
 

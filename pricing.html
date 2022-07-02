@@ -9,19 +9,19 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <title>Pricing</title>
 
 </head>
 
 <body>
+    <!-- NAVIGATION TOGGLE BAR -->
     <nav class = "navbar navbar-dark navbar-expand-sm fixed-top">
         <div class = "container">
             <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#Navbar">
                 <span class = "navbar-toggler-icon"></span>
             </button>
-            <a class = "navbar-brand active mr-auto" href="./index.html">江Grand Buffet龍</a>
+            <a class = "navbar-brand mr-auto" href="./index.html">江Grand Buffet龍</a>
             <div class = "collapse navbar-collapse" id = "Navbar">
                 <ul class = "navbar-nav mr-auto">
                     <li class = "nav-item">
@@ -40,6 +40,8 @@
             </div>
         </div>
     </nav>
+<!-- COST CALCULATOR -->
+
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -53,27 +55,85 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container-calc">
+        <div class="row row-content align-items-center">
+            <div class = "col-sm-4 col-sm-4 col-sm-4">
+                <p><ul style="list-style-type:none;" class="list-buttons">
+                    <li><button class = "counter-minus" id="AL">-</button>
+                        <span class = "counter-display" id="AL">0</span>
+                        <button class = "counter-plus" id="AL">+</button></li>
+                    <li><button class = "counter-minus" id="KL7">-</button>
+                        <span class = "counter-display" id="KL7">0</span>
+                        <button class = "counter-plus" id="KL7">+</button></li>
+                    <li><button class = "counter-minus" id="KL3">-</button>
+                        <span class = "counter-display" id="KL3">0</span>
+                        <button class = "counter-plus" id="KL3">+</button></li>
+                    <li><button class = "counter-minus" id="AD">-</button>
+                        <span class = "counter-display" id="AD">0</span>
+                        <button class = "counter-plus" id="AD">+</button></li>
+                    <li><button class = "counter-minus" id="KD7">-</button>
+                        <span class = "counter-display" id="KD7">0</span>
+                        <button class = "counter-plus" id="KD7">+</button></li>
+                    <li><button class = "counter-minus" id="KD3">-</button>
+                        <span class = "counter-display" id="KD3">0</span>
+                        <button class = "counter-plus" id="KD3">+</button></li>
+                    <li><button class = "counter-minus" id="FD">-</button>
+                        <span class = "counter-display" id="FD">0</span>
+                        <button class = "counter-plus" id="FD">+</button></li>
+                    <li><button class = "counter-minus" id="TGSH">-</button>
+                        <span class = "counter-display" id="TGSH">0</span>
+                        <button class = "counter-plus" id="TGSH">+</button></li>
+                    <li><button class = "counter-minus" id="TGL">-</button>
+                        <span class = "counter-display" id="TGL">0</span>
+                        <button class = "counter-plus" id="TGL">+</button></li>
+                    <li><button class = "counter-minus" id="TGD">-</button>
+                        <span class = "counter-display" id="TGD">0</span>
+                        <button class = "counter-plus" id="TGD">+</button></li> 
+                </p>     
+            </div>
+            <div class = "col-sm- col-sm-2 col-sm-7">
+                <ul style="list-style-type:none;" class="list-items">
+                    <li>Adult Lunch</li> 
+                    <li> </li>
+                    <li> Kids Lunch 7-10 y/o</li> 
+                    <li>Kids Lunch 3-6 y/o</li>
+                    <li>Adult Dinner</li>
+                    <li>Kids Dinner 7-10 y/o</li>
+                    <li>Kids Dinner 3-6 y/o</li>
+                    <li>Fountain Drink</li>
+                    <li>To-Go w/ Seafood or Hibachi</li>
+                    <li>To-go Lunch (No Seafood or Hibachi)</li>
+                    <li>To-go Dinner (No Seafood or Hibachi)</li>
+                </ul> 
+            </div>
+        </div>
+        <div class="total">
+            Total:
+            <span class = "calculate-display" id="cal_dis">0</span>
+            <button class ="resetButton">Reset</button>
+        </div>
+    </div>
+    <!-- <div class="container">
        <div class="row justify-content-center">
             <div class="col-12 col-sm-4 order-sm-first col-md-3">
-                <iframe class = "text-center"src="costCalculator.html" height="500" title="Price Calculator"></iframe>
+                <iframe class = "text-center" src="costCalculator.html" height="500" title="Price Calculator"></iframe>
             </div>
        </div> 
-    </div>
+    </div> -->
     
 
     <footer class="footer">
         <div class="container">
             <div class="row justify-content-around text-center">             
-                <div class="col-4 offset-1 col-sm-2">
+                <!-- <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a class="text-white" href="./index.html">Home</a></li>
-                        <li><a class="text-white" href="#">About</a></li>
                         <li><a class="text-white" href="./menu.html">Menu</a></li>
-                        <li><a class="text-white" href="./contactus.html">Contact</a></li>
+                        <li><a class="text-white" href="#">Pricing</a></li>
+                        <li><a class="text-white" href="./contactus.html">Contact Us</a></li>
                     </ul>
-                </div>
+                </div> -->
                 <div class = "col-4">
                     <div class="text-center"> 
                     <h5>Our Location</h5>
@@ -91,7 +151,11 @@
                 </div>
            </div>
     </footer>
-    
+    <script src="costCalculator.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

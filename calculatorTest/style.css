@@ -1,0 +1,56 @@
+* {
+  background-color: rgb(123, 12, 12);
+  font-style: oblique;
+  font-size: 30px;
+  font-weight:bolder;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+}
+
+.flex-container {
+    display: flex;
+    margin: -10px 0px 0px 0;
+}
+
+.flex-child {
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.counter-minus {
+    background-color: #c2b968;
+    border-radius: 8px;
+    color: black;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+.counter-minus:hover {background-color: #c2b968}
+
+.counter-minus:active {
+background-color: #c2b968;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.counter-plus {
+    background-color: #c2b968;
+    border-radius: 8px;
+    color: black;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+.counter-plus:hover {background-color: #c2b968}
+
+.counter-plus:active {
+background-color: #c2b968;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}

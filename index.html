@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
    <link rel="stylesheet" href="css/styles.css">
-    <title>Grand Buffet</title>
+    <title>Grand Buffet</title> 
 </head>
 
 <body>
@@ -20,14 +20,20 @@
         <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#Navbar">
             <span class = "navbar-toggler-icon"></span>
         </button>
-        <a class = "navbar-brand active mr-auto" href="./index.html">江Grand Buffet龍</a>
+        <a class = "navbar-brand active mr-auto" href="#">江Grand Buffet龍</a>
         <div class = "collapse navbar-collapse" id = "Navbar">
             <ul class = "navbar-nav mr-auto">
-                <li class = "nav-item">
-                    <a class = "nav-link" href="./index.html">Home</a>
+                <li class = "nav-item active">
+                    <a class = "nav-link" href="#">Home</a>
                 </li>
                 <li class = "nav-item">
                     <a class = "nav-link" href="./menu.html">Menu</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href="./contactus.html">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -62,7 +68,7 @@
             </div>
         </div>
 
-
+        <!-- BUFFET AND TO-GO PRICES SECTION -->
         <div class = "row row-content align-items-center">
             <div class = "col-12 col-sm-8 col-md-4">
                 <h3>Buffet and <br>To-go Prices</h3>
@@ -70,7 +76,7 @@
             </div>
             <div class = "col col-sm col-md">
                 <div class="table-responsive">
-                    <table class="table table-bordered">
+                    <table class="table table-bordered text-center"  style="display: table-cell;vertical-align:middle">
                         <thead bgcolor = "#c2b968">
                             <tr>
                                 <th>&nbsp;</th>
@@ -85,24 +91,22 @@
                                 <td>$18.99</td>
                             </tr>
                             <tr>
-                                <th>Kids 8-12</th>
-                                <td>$8.99</td>
-                                <td>$10.99</td>
+                                <th>Kids 7-10</th>
+                                <td style="vertical-align:middle">$8.99</td>
+                                <td style="vertical-align:middle">$10.99</td>
                             </tr>
                             <tr>
-                                <th>Kids 5-8</th>
+                                <th>Kids 3-6</th>
                                 <td>$6.99</td>
                                 <td>$8.99</td>
                             </tr>
                             <tr>
-                                <th>Kids under 5</th>
-                                <td>$3.99</td>
-                                <td>$5.99</td>
+                                <th>Fountain Drinks</th>
+                                <td colspan = "2" style="vertical-align:middle">$2.99</td>
                             </tr>
                             <tr>
                                 <th>To-Go w/ Seafood and Hibachi</th>
-                                <td>$10.99/pound</td>
-                                <td>$10.99/pound</td>
+                                <td colspan = "2" style="vertical-align:middle;">$10.99/pound</td>
                             </tr>
                             <tr>
                                 <th>To-Go</th>
@@ -156,11 +160,10 @@
                 <div class = "col-4">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        
-                        <li><a class="text-white" href="./index.html">Home</a></li>
-                        <li><a class="text-white" href="#">About Us (Coming Soon)</a></li>
-                        <li><a class="text-white" href="#">Menu (Coming Soon)</a></li>
-                        <li><a class="text-white" href="#">Contact Us (Coming Soon)</a></li>
+                        <li><a class="text-white" href="#">Home</a></li>
+                        <li><a class="text-white" href="./menu.html">Menu</a></li>
+                        <li><a class="text-white" href="./pricing.html">Pricing</a></li>
+                        <li><a class="text-white" href="./contactus.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class = "col-4">

@@ -10,10 +10,10 @@
 <body>
     <div class="flex-container">
         <div class = "flex-child buttons">
-            <ul style="list-style-type:none;"><ul style="list-style-type:none;">
+            <p style="list-style-type:none;"><ul style="list-style-type:none;" class="list-buttons">
                 <li><button class = "counter-minus" id="AL">-</button>
                     <span class = "counter-display" id="AL">0</span>
-                    <button class = "counter-plus" id="AL" align="right">+</button></li>
+                    <button class = "counter-plus" id="AL">+</button></li>
                 <li><button class = "counter-minus" id="KL7">-</button>
                     <span class = "counter-display" id="KL7">0</span>
                     <button class = "counter-plus" id="KL7">+</button></li>
@@ -41,28 +41,28 @@
                 <li><button class = "counter-minus" id="TGD">-</button>
                     <span class = "counter-display" id="TGD">0</span>
                     <button class = "counter-plus" id="TGD">+</button></li> 
-            </ul>
-                
+                </p>     
         </div>
         <div class="flex-child items">
-           <ul style="list-style-type:none;">
-            <li>Adult Lunch</li>
-                <li> Kids Lunch 7-10 y/o</li> 
-                <li>Kids Lunch 3-6 y/o</li>
-                <li>Adult Dinner</li>
-                <li>Kids Dinner 7-10 y/o</li>
-                <li>Kids Dinner 3-6 y/o</li>
-                <li>Fountain Drink</li>
-                <li>To-Go w/ Seafood or Hibachi</li>
-                <li>To-go Lunch (No Seafood or Hibachi)</li>
-                <li>To-go Dinner (No Seafood or Hibachi)</li>
+           <ul style="list-style-type:none;" class="list-items">
+            <li>Adult Lunch</li> 
+            <li> </li>
+            <li> Kids Lunch 7-10 y/o</li> 
+            <li>Kids Lunch 3-6 y/o</li>
+            <li>Adult Dinner</li>
+            <li>Kids Dinner 7-10 y/o</li>
+            <li>Kids Dinner 3-6 y/o</li>
+            <li>Fountain Drink</li>
+            <li>To-Go w/ Seafood or Hibachi</li>
+            <li>To-go Lunch (No Seafood or Hibachi)</li>
+            <li>To-go Dinner (No Seafood or Hibachi)</li>
            </ul> 
         </div>
-        <!-- 
-        <div>
-            Total:
-            <span class = "calculate-display" id="cal_dis">0</span> 
-        </div>-->
+    </div>
+    <div class="total">Total:
+        <span class = "calculate-display" id="cal_dis">0</span>
+    </div> 
+   
     </div> 
     <script src="costCalculator.js"></script>
 </body>

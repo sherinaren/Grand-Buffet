@@ -92,7 +92,7 @@ body {
 
 .counter-minus:active, .resetButton:active, .counter-plus:active {
     background-color: #c2b968;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 1px #666;
     transform: translateY(4px);
 }
 
@@ -126,4 +126,17 @@ body {
     padding-left: 5px;
     font-size: 20px;
     color:#c2b968 ;
+}
+
+/* BUFFET MENU */
+.jumbotronBuffet {
+    padding: 20px 10px 20px 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: #620808;
+    color: rgb(221, 220, 220);
+}
+
+.container {
+   
 }

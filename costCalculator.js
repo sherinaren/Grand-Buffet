@@ -99,3 +99,10 @@ counterDisplayElems.forEach((button)=>
     button.addEventListener('click', () => updateDisplay(button.id))
 );
 
+$('.sortme').sort(function(a, b) {
+    if (a.textContent < b.textContent) {
+      return -1;
+    } else {
+      return 1;
+    }
+  }).appendTo('body');

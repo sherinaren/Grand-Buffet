@@ -34,24 +34,7 @@
     margin: 0px auto;
     background: #620808;
     color: rgb(221, 220, 220);
-
-}
-
-.jumbotron-pricing {
-    padding: 70px 30px 70px 30px;
-    margin: 0px auto;
-    background: #620808;
-    color: rgb(221, 220, 220);
-    font-style: oblique;
-    font-weight:bolder;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 17px;
-}
-
-.address {
-    font-size: 80%;
-    margin: 0px;
-    color: black;
+    font-size: large;
 }
 
 body {
@@ -60,7 +43,6 @@ body {
 
 .navbar-dark {
     background-color: #c2b968;
-
     font-style: oblique;
     font-size: 17px;
     font-weight:bolder;
@@ -126,17 +108,4 @@ body {
     padding-left: 5px;
     font-size: 20px;
     color:#c2b968 ;
-}
-
-/* BUFFET MENU */
-.jumbotronBuffet {
-    padding: 20px 10px 20px 10px;
-    padding-bottom: 5px;
-    text-align: center;
-    background: #620808;
-    color: rgb(221, 220, 220);
-}
-
-.container {
-   
 }

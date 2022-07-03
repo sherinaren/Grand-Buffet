@@ -1,27 +1,27 @@
 let itemPrices = {
-    "AL": 13.99,
-    "KL7": 8.99,
-    "KL3": 6.99,
-    "AD": 18.99,
-    "KD7": 10.99,
-    "KD3": 8.99,
-    "FD": 2.99,
+    "AL": 11.59,
+    "KL6": 6.99,
+    "KL3": 5.99,
+    "AD": 13.99,
+    "KD6": 7.99,
+    "KD3": 6.99,
+    "FD": 2.59,
     "TGSH": 10.99,
-    "TGL": 7.99,
-    "TGD": 10.99
+    "TGSS": 7.99,
+    "TG": 5.49
 };
 
 let itemQuantity = {
     "AL": 0,
-    "KL7": 0,
+    "KL6": 0,
     "KL3": 0,
     "AD": 0,
-    "KD7": 0,
+    "KD6": 0,
     "KD3": 0,
     "FD": 0,
     "TGSH": 0,
-    "TGL": 0,
-    "TGD": 0
+    "TGSS": 0,
+    "TG": 0
 };
 
 function calculateTotalCost(itemQuantity) {

@@ -37,11 +37,11 @@ function calculateTotalCost(itemQuantity) {
 let calculateDisplay = document.getElementById("cal_dis");
 
 function updateCalculateDisplay() {
-    calculateDisplay.innerText = "Your total, tax included, will be $" + calculateTotalCost(itemQuantity) + ".";
+    calculateDisplay.innerText = "Total: Your total, tax included, will be $" + calculateTotalCost(itemQuantity) + ".";
 };
 
 function updateResetDisplay2() {
-    calculateDisplay.innerText = "0";
+    calculateDisplay.innerText = "Total: 0";
 };
 // Reset Button Code
 

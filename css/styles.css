@@ -103,4 +103,10 @@ body {
 
 .total {
     font-size: large;
+    padding-top: 15px;
+}
+
+.calculate-display {
+    padding-left: 5px;
+    font-size: 20px;
 }

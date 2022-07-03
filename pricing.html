@@ -55,62 +55,96 @@
         </div>
     </header>
 
-    <div class="container-calc">
-        <div class="row row-content align-items-center">
-            <div class = "col-sm-4 col-sm-4 col-sm-4">
-                <p><ul style="list-style-type:none;" class="list-buttons">
-                    <li><button class = "counter-minus" id="AL">-</button>
-                        <span class = "counter-display" id="AL">0</span>
-                        <button class = "counter-plus" id="AL">+</button></li>
-                    <li><button class = "counter-minus" id="KL7">-</button>
-                        <span class = "counter-display" id="KL7">0</span>
-                        <button class = "counter-plus" id="KL7">+</button></li>
-                    <li><button class = "counter-minus" id="KL3">-</button>
-                        <span class = "counter-display" id="KL3">0</span>
-                        <button class = "counter-plus" id="KL3">+</button></li>
-                    <li><button class = "counter-minus" id="AD">-</button>
-                        <span class = "counter-display" id="AD">0</span>
-                        <button class = "counter-plus" id="AD">+</button></li>
-                    <li><button class = "counter-minus" id="KD7">-</button>
-                        <span class = "counter-display" id="KD7">0</span>
-                        <button class = "counter-plus" id="KD7">+</button></li>
-                    <li><button class = "counter-minus" id="KD3">-</button>
-                        <span class = "counter-display" id="KD3">0</span>
-                        <button class = "counter-plus" id="KD3">+</button></li>
-                    <li><button class = "counter-minus" id="FD">-</button>
-                        <span class = "counter-display" id="FD">0</span>
-                        <button class = "counter-plus" id="FD">+</button></li>
-                    <li><button class = "counter-minus" id="TGSH">-</button>
-                        <span class = "counter-display" id="TGSH">0</span>
-                        <button class = "counter-plus" id="TGSH">+</button></li>
-                    <li><button class = "counter-minus" id="TGL">-</button>
-                        <span class = "counter-display" id="TGL">0</span>
-                        <button class = "counter-plus" id="TGL">+</button></li>
-                    <li><button class = "counter-minus" id="TGD">-</button>
-                        <span class = "counter-display" id="TGD">0</span>
-                        <button class = "counter-plus" id="TGD">+</button></li> 
-                </p>     
+    <div class="container container-calc">
+        <div style="padding-top: 50px">
+            <div class="row" >
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="AL">-</button>
+                    <span class = "counter-display" id="AL">0</span>
+                    <button class = "counter-plus" id="AL">+</button>
+                </div>
+                <div class="col-9 list-items">Adult Lunch</div> 
             </div>
-            <div class = "col-sm- col-sm-2 col-sm-7">
-                <ul style="list-style-type:none;" class="list-items">
-                    <li>Adult Lunch</li> 
-                    <li> </li>
-                    <li> Kids Lunch 7-10 y/o</li> 
-                    <li>Kids Lunch 3-6 y/o</li>
-                    <li>Adult Dinner</li>
-                    <li>Kids Dinner 7-10 y/o</li>
-                    <li>Kids Dinner 3-6 y/o</li>
-                    <li>Fountain Drink</li>
-                    <li>To-Go w/ Seafood or Hibachi</li>
-                    <li>To-go Lunch (No Seafood or Hibachi)</li>
-                    <li>To-go Dinner (No Seafood or Hibachi)</li>
-                </ul> 
+            <div class="row">
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="KL7">-</button>
+                    <span class = "counter-display" id="KL7">0</span>
+                    <button class = "counter-plus" id="KL7">+</button>
+                </div>
+                <div class="col-9 list-items">Kids Lunch 7-10 y/o</div> 
             </div>
-        </div>
-        <div class="total">
-            Total:
-            <span class = "calculate-display" id="cal_dis">0</span>
-            <button class ="resetButton">Reset</button>
+            <div class="row">
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="KL3">-</button>
+                    <span class = "counter-display" id="KL3">0</span>
+                    <button class = "counter-plus" id="KL3">+</button>
+                </div>
+                <div class="col-9 list-items">Kids Lunch 3-6 y/o</div>
+            </div>
+            <div class="row">
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="AD">-</button>
+                    <span class = "counter-display" id="AD">0</span>
+                    <button class = "counter-plus" id="AD">+</button>
+                </div>
+                <div class="col-9 list-items">Adult Dinner</div>
+            </div>
+            <div class="row">
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="KD7">-</button>
+                    <span class = "counter-display" id="KD7">0</span>
+                    <button class = "counter-plus" id="KD7">+</button>
+                </div>
+                <div class="col-9 list-items">Kids Dinner 7-10 y/o</div>
+            </div>
+            <div class="row">
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="KD3">-</button>
+                    <span class = "counter-display" id="KD3">0</span>
+                    <button class = "counter-plus" id="KD3">+</button>
+                </div>
+                <div class="col-9 list-items">Kids Dinner 3-6 y/o</div>
+            </div>
+            <div class="row">
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="FD">-</button>
+                    <span class = "counter-display" id="FD">0</span>
+                    <button class = "counter-plus" id="FD">+</button>
+                </div>
+                <div class="col-9 list-items">Fountain Drink</div>
+            </div>
+            <div class="row">
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="TGSH">-</button>
+                    <span class = "counter-display" id="TGSH">0</span>
+                    <button class = "counter-plus" id="TGSH">+</button>
+                </div>
+                <div class="col-9 list-items">To-Go w/ Seafood/Hibachi</div>
+            </div>
+            <div class="row">
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="TGL">-</button>
+                    <span class = "counter-display" id="TGL">0</span>
+                    <button class = "counter-plus" id="TGL">+</button>
+                </div>
+                <div class="col-9 list-items">To-go Lunch (No Seafood/Hibachi)</div>
+            </div>
+            <div class="row align-middle">
+                <div class="col-3 list-buttons">
+                    <button class = "counter-minus" id="TGD">-</button>
+                    <span class = "counter-display" id="TGD">0</span>
+                    <button class = "counter-plus" id="TGD">+</button>
+                </div>
+                <div class="col-9 list-items">To-go Dinner (No Seafood/Hibachi)</div>
+            </div>    
+        </div> 
+        <div class="row row-content total">
+            <div class="col-3 " style="text-align: center">
+                <button class ="resetButton">Reset</button>
+            </div>
+            <div class="col-9">
+            Total:<span class = "calculate-display" id="cal_dis">0</span>
+            </div>
         </div>
     </div>
     <!-- <div class="container">
@@ -128,10 +162,10 @@
                 <!-- <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a class="text-white" href="./index.html">Home</a></li>
-                        <li><a class="text-white" href="./menu.html">Menu</a></li>
-                        <li><a class="text-white" href="#">Pricing</a></li>
-                        <li><a class="text-white" href="./contactus.html">Contact Us</a></li>
+                        <div class="col-3"><a class="text-white" href="./index.html">Home</a></div>
+                        <div class="col-3"><a class="text-white" href="./menu.html">Menu</a></div>
+                        <div class="col-3"><a class="text-white" href="#">Pricing</a></div>
+                        <div class="col-3"><a class="text-white" href="./contactus.html">Contact Us</a></div>
                     </ul>
                 </div> -->
                 <div class = "col-4">
